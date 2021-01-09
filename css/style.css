@@ -11,10 +11,10 @@
 
 .headerBackground{
 	z-index: -1;
-	width:105%;
+	width:100%;
 	height:50%;
 	top: -10%;
-	left:-3%;
+	left:0%;
 	position: absolute;
 	margin-top: 0px;
 	background: linear-gradient(#f95959, #ffb74a);
