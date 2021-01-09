@@ -1,6 +1,6 @@
 function createText() {
     var text = document.createElement("P");
-    text.innerText = "Joey Sucks.";
+    text.innerText = "Joey is a fake gamer.";
     document.getElementById("mainContent").appendChild(text);
 }
 

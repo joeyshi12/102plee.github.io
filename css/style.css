@@ -41,12 +41,12 @@ body {
 	top: 50px;
 
 	margin: auto;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	
 	padding: 20px;
 	padding-bottom: 25px;
 	
-	width: 75%;
+	width: 60%;
 	height: auto;
 	min-height: 1000px;
 }
@@ -100,7 +100,7 @@ hr {
 	margin: 15px;
 	width: 25%;
 	min-height: 500px;
-	min-width: 500px;
+	min-width: 400px;
 	background: #c2c2c2;
 
 }
@@ -145,4 +145,20 @@ hr {
 	background-color: #ff8534;
 	text-align: center;
 	transition: all 500ms ease;
+}
+
+#externalLinks {
+	margin: auto;
+	width: 50%;
+	position: relative;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+
+#clickableLogos > img {
+	vertical-align: middle;
+	width: 50px;
+	margin: 25px;
+	position: relative;
 }
