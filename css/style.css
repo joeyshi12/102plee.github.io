@@ -30,7 +30,7 @@ body {
 	padding: 20px;
 	padding-bottom: 25px;
 	
-	width: 50%;
+	width: 75%;
 	height: auto;
 	min-height: 1000px;
 }
@@ -41,8 +41,12 @@ body {
 	color: #f1f1f1;
 }
 
+#mainContent > p {
+	font-size: 25px;
+	margin: 50px;
+}
+
 .button {
-	display: inline-block;
 	padding: 15px 25px;
 	font-size: 24px;
 	cursor: pointer;
@@ -62,4 +66,33 @@ body {
   background-color: #383838;
   box-shadow: 0 5px #999;
   transform: translateY(4px);
+}
+
+hr {
+	display: block;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+#itemChoice {
+	border-radius: 10px;
+
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+	width: 25%;
+	min-height: 500px;
+	min-width: 500px;
+	background: #c2c2c2;
+
+}
+
+#itemChoice > img {
+	display: block;
+	position: relative;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: auto;
+	max-width: 300px;
 }
