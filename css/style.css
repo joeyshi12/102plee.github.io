@@ -60,12 +60,14 @@ body {
 	box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #383838}
+.button:hover {
+	background-color: #383838
+}
 
 .button:active {
-  background-color: #383838;
-  box-shadow: 0 5px #999;
-  transform: translateY(4px);
+	background-color: #383838;
+	box-shadow: 0 5px #999;
+	transform: translateY(4px);
 }
 
 hr {
