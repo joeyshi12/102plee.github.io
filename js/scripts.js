@@ -4,13 +4,27 @@ function createText() {
     document.getElementById("mainContent").appendChild(text);
 }
 
-document.addEventListener('click', function(event) {
-    if (!event.target.matches('.messageBubble')) return;
-    event.preventDefault();
-    var bubble = document.getElementById("message-Bubble");
-    var box = document.getElementById("message-Box");
-    box.style.height = "600px";
-    box.style.width = "400px";
-    bubble.style.display = "none";
-  
-  }, false);
+
+$(document).ready(function(){
+
+    $("#message-Bubble").on("click", function() {
+        console.log("sup");
+        var box = document.getElementById("message-Box");
+        var bubble = document.getElementById("message-Bubble");
+        bubble.style.display = "none";
+        box.style.height = "600px";
+        box.style.width = "400px";
+        $(this.hash).toggleClass('active').focus();
+    });
+
+    
+    $(window).on('beforeunload', function() {
+        console.log("sup");
+        $(window).scrollTop(0);
+    });
+
+    $("#doNothing").on("click", function() {
+        return false;
+    });
+});
+
