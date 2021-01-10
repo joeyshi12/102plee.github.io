@@ -159,6 +159,7 @@ hr {
 #externalLinks > a {
 	
 	vertical-align: middle;
+	display: inline-block;
 	width: 50px;
 	margin: 25px;
 	position: relative;
