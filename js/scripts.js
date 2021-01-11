@@ -52,7 +52,28 @@ $(document).ready(function(){
     // });
 
     $("#doNothing").on("click", function() {
-        return false;
+
+        $.when($("#messageSender").fadeOut(250)).done(function() {
+            $("#messageSender").hide();
+            $.when($("#sentDone").fadeIn(250)).done(function() {
+                $("#sentDone").show();
+            });
+        });
+
     });
+
+    $("#sendAnother").on("click", function() {
+
+        $.when($("#sentDone").fadeOut(250)).done(function() {
+            $("#sentDone").hide();
+            $.when($("#messageSender").fadeIn(250)).done(function() {
+                $("#messageSender").show();
+            });
+        });
+
+    });
+
+
+
 });
 

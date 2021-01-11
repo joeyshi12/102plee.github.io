@@ -46,3 +46,20 @@ label {
 form {
     width: auto;
 }
+
+#textBox {
+    min-height: 1100px;
+}
+
+#sentDone {
+    display: none;
+}
+
+#smallLine {
+    width: 50%;
+}
+
+h4 {
+    margin:0;
+    margin-top: 2.5%;
+}
