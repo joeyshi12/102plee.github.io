@@ -47,10 +47,6 @@ form {
     width: auto;
 }
 
-#textBox {
-    min-height: 1100px;
-}
-
 #sentDone {
     display: none;
 }
@@ -62,4 +58,8 @@ form {
 h4 {
     margin:0;
     margin-top: 2.5%;
+}
+
+#contactUsWebApp {
+    min-height: 1000px;
 }
