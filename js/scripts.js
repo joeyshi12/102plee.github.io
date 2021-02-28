@@ -1,4 +1,4 @@
-var compliments = ['You look great today', 'What\'s up cool guy?', 'Hope you have a fantastic day?', 'Keep your chin up champ!'];
+var compliments = ['You look great today', 'What\'s up cool guy?', 'Hope you have a fantastic day', 'Keep your chin up champ!'];
 
 function createText() {
     var text = document.createElement("P");
