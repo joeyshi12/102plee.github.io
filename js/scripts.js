@@ -1,6 +1,9 @@
+var compliments = ['You look great today', 'What\'s up cool guy?', 'Petar'];
+
 function createText() {
     var text = document.createElement("P");
-    text.innerText = "Joey is a fake gamer.";
+    const randIdx = Math.floor(Math.random() * compliments.length)
+    text.innerText = compliments[randIdx];
     document.getElementById("mainContent").appendChild(text);
 }
 
