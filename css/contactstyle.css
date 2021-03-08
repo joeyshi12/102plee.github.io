@@ -62,4 +62,6 @@ h4 {
 
 #contactUsWebApp {
     min-height: 1000px;
+    display: flex;
+    flex-direction: column; 
 }
