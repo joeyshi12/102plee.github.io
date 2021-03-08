@@ -94,7 +94,7 @@ body {
 }
 
 .button {
-    width: fit-content;
+    display: block;
 	padding: 15px 25px;
     margin-left: 20px;
     margin-right: 20px;
@@ -137,12 +137,12 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 	border-radius: 10px;
 	position: relative;
 	margin: 15px;
+	width: 25%;
 	min-height: 200px;
-	width: 200px;
+	width: 240px;
 	background: #c2c2c2;
 }
 
@@ -159,7 +159,7 @@ hr {
 #messageSender {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 #externalLinks {
