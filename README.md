@@ -1,3 +1,3 @@
 # 102plee.github-io
-Personal Website
+<a href="https://102plee.github.io">Personal website</a> for showcasing my skills and projects.
 
