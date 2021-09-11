@@ -11,10 +11,18 @@ var compliments = [
 ];
 
 function createText() {
-    var text = document.createElement("P");
+
     const randIdx = Math.floor(Math.random() * compliments.length)
-    text.innerText = compliments[randIdx];
-    document.getElementById("mainContent").appendChild(text);
+    var complimenttoUse = compliments[randIdx];
+    if (!document.getElementById("compliment")) {
+        var text = document.createElement("P");
+        text.setAttribute("id", "compliment");
+        text.innerText = complimenttoUse
+        document.getElementById("mainContent").appendChild(text);
+    } else {
+        document.getElementById("compliment").innerText = complimenttoUse;
+    }
+    
 }
 
 var blobopen = false;
