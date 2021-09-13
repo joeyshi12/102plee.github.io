@@ -67,12 +67,29 @@ body {
 	margin-bottom: 200px;
 	
 	padding: 20px;
-	padding-bottom: 100px;
+	padding-bottom: 75px;
 	
 	width: 60%;
 	height: auto;
 
 	animation: movein 0.25s;
+}
+
+#textBoxAnimated {
+	border-radius: 25px;
+	background: #757575;
+
+	position: relative;
+	top: 50px;
+
+	margin: auto;
+	margin-bottom: 200px;
+	
+	padding: 20px;
+	padding-bottom: 100px;
+	
+	width: 60%;
+	height: auto;
 }
 
 @keyframes movein {
