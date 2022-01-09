@@ -1,35 +1,8 @@
-var compliments = [
-    'You look great today',
-    'What\'s up cool guy?',
-    'Hope you have a fantastic day',
-    'Keep your chin up champ!',
-    'You have the best ideas',
-    'You bring the best out of everyone!',
-    'I appreciate you',
-    'You light up the room',
-    'You\'re awesome!'
-];
-
-function createText() {
-
-    const randIdx = Math.floor(Math.random() * compliments.length)
-    var complimenttoUse = compliments[randIdx];
-    if (!document.getElementById("compliment")) {
-        var text = document.createElement("P");
-        text.setAttribute("id", "compliment");
-        text.innerText = complimenttoUse
-        document.getElementById("mainContent").appendChild(text);
-    } else {
-        document.getElementById("compliment").innerText = complimenttoUse;
-    }
-    
-}
-
 var blobopen = false;
 
 $(document).ready(function(){
 
-    $(document).on('click', function (e) {
+    $(document).on("click", function (e) {
         if (blobopen) {
             if ($(e.target).closest("#message-Box").length === 0 && $(e.target).closest("#message-Bubble").length === 0) {
                 var box = document.getElementById("message-Box");
@@ -62,14 +35,14 @@ $(document).ready(function(){
 
 
 
-    // $("#message-Box").on('focusout', function () {
+    // $("#message-Box").on("focusout", function () {
     //     console.log("sup dude");
     //     var box = document.getElementById("message-Box");
     //     var bubble = document.getElementById("message-Bubble");
     //     box.style.height = "75px";
     //     box.style.width = "75px";
     //     bubble.style.display = "block";
-    //     $("#message-Box").removeClass('active');
+    //     $("#message-Box").removeClass("active");
     // });
 
     $("#doNothing").on("click", function() {
